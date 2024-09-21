@@ -7,30 +7,37 @@ The **BlueLine Bus Online Booking System** is a comprehensive, user-friendly pla
 ### Key Features
 
 1. **User Authentication**
+
    - Secure user registration and login with JWT (JSON Web Tokens) for session management.
    - Role-based access control for users and administrators.
 
 2. **Bus Schedule Management**
+
    - Dynamic management of bus schedules, routes, and availability.
    - Admin dashboard for adding, updating, or deleting bus information.
 
 3. **Search and Book**
+
    - User-friendly interface for searching available buses based on routes, dates, and timings.
    - Real-time seat availability and selection, allowing users to choose their preferred seats.
 
 4. **Booking Management**
+
    - Users can view their booking history and manage upcoming trips.
    - Easy cancellation and modification of bookings through the user dashboard.
 
 5. **Payment Integration**
+
    - Secure and seamless payment processing via the Razorpay payment gateway.
    - Support for multiple payment methods, including credit/debit cards, UPI, and net banking.
 
 6. **Responsive Design**
+
    - Fully responsive UI for optimal user experience on desktops, tablets, and mobile devices.
    - Intuitive navigation and clean layout to enhance usability.
 
 7. **Email Notifications**
+
    - Automated email confirmations for bookings and cancellations, keeping users informed.
 
 8. **Admin Dashboard**
@@ -44,13 +51,12 @@ The **BlueLine Bus Online Booking System** is a comprehensive, user-friendly pla
 - **Database**: MongoDB for flexible data storage and efficient querying of booking information.
 - **Payment Gateway**: Razorpay for secure and efficient payment processing, ensuring a smooth transaction experience.
 
-### Benefits
+## Installation
 
-- **Hassle-Free Booking**: Simplifies the entire booking process, reducing time and effort for users.
-- **Enhanced Security**: Protects user data and payment information with industry-standard security practices.
-- **Scalability**: Built to handle a growing number of users and transactions, making it suitable for future expansion.
-- **User Engagement**: Provides a personalized experience with features such as booking history and real-time notifications.
+### 1. Setting Up the React App (Frontend)
 
-### Conclusion
+**Step 1:** Navigate to the frontend directory:
 
-The BlueLine Bus Online Booking System aims to revolutionize the way travelers book their bus tickets, combining modern technology with user-centric design. By leveraging the MERN stack and NestJS framework, along with Razorpay for secure payments, it ensures a reliable and efficient platform for both users and administrators. Whether for daily commuters or occasional travelers, BlueLine provides a seamless booking experience that meets the demands of today’s digital landscape.
+```bash
+cd frontend
+```
