@@ -59,4 +59,5 @@ The **BlueLine Bus Online Booking System** is a comprehensive, user-friendly pla
 
 ```bash
 cd frontend
+npm create vite@latest
 ```
